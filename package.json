@@ -1,0 +1,60 @@
+{
+  "name": "s-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "nodemon --exec babel-node src/index.js",
+  "transpile": "babel ./ --out-dir dist-server"
+  },
+  "author": "mohamed salah <mohamedsalah.software@gmail.com> (https://mohamedsalah.dev/)",
+  "license": "ISC",
+   "dependencies": {
+     
+  "@babel/cli": "^7.22.5",
+  
+    
+  "babel-cli": "^6.26.0",
+  
+    
+  "express": "^4.18.2",
+  
+    
+  "mongoose": "^7.3.1",
+  
+    
+  "nodemon": "^2.0.22",
+  
+    
+  "rimraf": "^5.0.1"
+  
+  },
+  
+  "babel": {
+  
+    
+  "presets": [
+  
+    
+    
+  "@babel/preset-env"
+  
+    
+  ]
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "@babel/core": "^7.21.5",
+  
+    
+  "@babel/node": "^7.20.7",
+  
+    
+  "@babel/preset-env": "^7.21.5"
+  
+  }
+}
